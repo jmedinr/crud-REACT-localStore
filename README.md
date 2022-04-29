@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Nuevas Funcionalidades
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## No olvides antes de iniciar
+npm install
 
-In the project directory, you can run:
+### `Se elimina AppUI.js de la carpeta App por redundancia con index.js`
 
-### `yarn start`
+![image](https://user-images.githubusercontent.com/59657015/166071446-43270409-ff9c-4c22-a847-f448341d081d.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `Se cambió el HomePage por el localhost de la maquina`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/59657015/166071471-3c4675a9-ddfc-4ad8-8ebf-410ea182ac22.png)
 
-### `yarn test`
+### `Se agrega estilos de Boostrap`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/59657015/166071491-7f99ef23-d9a0-454a-a846-52cf441fb5fd.png)
 
-### `yarn build`
+### `Se modifica de function a Hooks los componentes NavBar, Search y Editar en el proyecto`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Se modifica de function a Hooks los componentes NavBar, Search y Editar`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/59657015/166071567-67c3c107-e0d1-4c91-a3ff-f226b5f0274f.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Este es el Home:
 
-### `yarn eject`
+![image](https://user-images.githubusercontent.com/59657015/166071604-c03f43b8-1931-40fd-a681-15a601391fae.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Este es Editar:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![image](https://user-images.githubusercontent.com/59657015/166071631-37ad5fd0-e477-422c-bbcf-71fef5e91ee4.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Y este buscar:
 
-## Learn More
+![image](https://user-images.githubusercontent.com/59657015/166071678-34a689d4-d124-4566-a204-558559ac6f48.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
