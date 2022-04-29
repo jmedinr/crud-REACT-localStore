@@ -4,20 +4,15 @@ import { TodoCounter } from "../TodoCounter";
 import { TodoSearch } from "../TodoSearch";
 import { TodoList } from "../TodoList";
 import { TodoItem } from "../TodoItem";
-import { CreateTodoButton } from "../CreateTodoButton";
-import { Modal } from "../Modal";
-import { TodoForm } from "../TodoForm";
-import "./Index.css";
+import "./Search.css";
 
-function Index() {
+const Search = () => {
   const {
     error,
     loading,
     searchedTodos,
     completeTodo,
     deleteTodo,
-    openModal,
-    setOpenModal,
   } = React.useContext(TodoContext);
 
   return (
@@ -40,14 +35,7 @@ function Index() {
           />
         ))}
       </TodoList>
-      <CreateTodoButton setOpenModal={setOpenModal} />
-      {!!openModal && (
-        <Modal>
-          <TodoForm />
-        </Modal>
-      )}
     </React.Fragment>
   );
-}
-
-export { Index };
+};
+export default Search;
