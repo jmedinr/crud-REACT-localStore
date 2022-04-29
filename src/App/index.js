@@ -1,12 +1,12 @@
-import React from 'react';
-import { TodoProvider } from '../TodoContext';
-import { AppUI } from './AppUI';
-
+import React, { Suspense } from "react";
+import { TodoProvider } from "../TodoContext";
+import { Index } from "../Index/index";
+import { Routes, Route, Router } from "react-router-dom";
 
 function App() {
   return (
     <TodoProvider>
-      <AppUI />
+      <Index></Index>
     </TodoProvider>
   );
 }
