@@ -18,7 +18,7 @@ npm install
 
 ### `Se modifica de function a Hooks los componentes NavBar, Search y Editar en el proyecto`
 
-### `Se modifica de function a Hooks los componentes NavBar, Search y Editar`
+### `Se Agrega un Navbar`
 
 ![image](https://user-images.githubusercontent.com/59657015/166071567-67c3c107-e0d1-4c91-a3ff-f226b5f0274f.png)
 
